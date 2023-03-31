@@ -6,7 +6,7 @@ const randomUserUrl = "https://randomuser.me/api";
 
 const CustomInstance = () => {
   const fetchData = async () => {
-    const res1 = await fetchAxios.get("/react-store-products");
+    const res1 = await fetchAxios.get("/react-store-products"); // this is different from other requests
     const res2 = await axios.get(randomUserUrl);
     console.log(res1, res2);
   };
